@@ -1,0 +1,18 @@
+body {
+    background: lightgreen;
+    
+}
+
+h1 {
+    color:white!important;
+}
+
+.columna {
+    background-color: aqua;
+    border: 1px solid black;
+}
+.jumbotron {
+    padding: 10% 0;
+    background: rgb(196, 196, 196);
+
+}

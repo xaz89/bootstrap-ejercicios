@@ -1,0 +1,28 @@
+body {
+    background: white;
+    
+}
+
+h1, p {
+    color:white!important;
+}
+
+
+.container100 {
+    width: 100%;
+}
+
+.hero {
+    display: table;
+    width: 100%;
+    background-image: url(../img/hero.jpg);
+    height: 500px;
+    
+}
+
+.hero-dentro {
+    vertical-align: middle;
+    display: table-cell;
+}
+
+
