@@ -25,4 +25,27 @@ h1, p {
     display: table-cell;
 }
 
+.jumbotron {
+    background: url(../img/hero.jpg) fixed center;
+    background-size: cover;
+    padding: 10% 0;
 
+
+}
+
+.jumbotron h1 {
+    font-size: xx-large;
+}
+
+.jumbotron p {
+    font-size: medium;
+}
+
+.absolute {
+    position: absolute;
+    float: right;
+}
+
+.relative {
+    position: relative;
+}
