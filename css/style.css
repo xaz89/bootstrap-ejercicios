@@ -1,18 +1,53 @@
-body {
-    background: lightgreen;
-    
-}
-
-h1 {
-    color:white!important;
-}
-
-.columna {
-    background-color: aqua;
-    border: 1px solid black;
-}
 .jumbotron {
-    padding: 10% 0;
-    background: rgb(196, 196, 196);
-
-}
+   
+    padding: 10%!important;
+    margin: 0;
+    color: white;
+    
+    background: linear-gradient(271deg, #000000, #61275f, #000000);
+    background-size: 600% 600%;
+    
+    -webkit-animation: animacionrosaverde 43s ease infinite;
+    -moz-animation: animacionrosaverde 43s ease infinite;
+    -o-animation: animacionrosaverde 43s ease infinite;
+    animation: animacionrosaverde 43s ease infinite;
+    }
+    
+    @-webkit-keyframes animacionrosaverde {
+        0%{background-position:0% 48%}
+        50%{background-position:100% 53%}
+        100%{background-position:0% 48%}
+    }
+    @-moz-keyframes animacionrosaverde {
+        0%{background-position:0% 48%}
+        50%{background-position:100% 53%}
+        100%{background-position:0% 48%}
+    }
+    @-o-keyframes animacionrosaverde {
+        0%{background-position:0% 48%}
+        50%{background-position:100% 53%}
+        100%{background-position:0% 48%}
+    }
+    @keyframes animacionrosaverde { 
+        0%{background-position:0% 48%}
+        50%{background-position:100% 53%}
+        100%{background-position:0% 48%}
+    }
+    
+    h1, h2 {
+        color:white!important;
+    }
+    
+    .columna {
+        background-color: aqua;
+        border: 1px solid black;
+    }
+    
+    
+    
+    .Bloque02 {
+        color: white;
+        background-color: #61275f;
+        padding: 5% 0 10%;
+    }
+    
